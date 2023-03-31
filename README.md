@@ -1,48 +1,46 @@
-# We are excited you are taking the time to solve our technical assignment! #
+# Getting Started with Create React App
 
-### Let’s pretend you are starting your first day with us. After you settle in, your first task will be assigned. Both Joseph (Product Owner) and Ness (Technical Lead) are ready to give you more details on your first task. ###
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-> Joseph - “Hi, I have your first task, excited?
+## Available Scripts
 
-> We need to create a web application that allows you to find the addresses of our customers based on their postcodes. Multiple addresses will be searched, so it would be nice if we could add the history of the last 3 in the page. Finally, alongside the address, we need to display the distance in a straight line, from the customer location to London Heathrow airport (lat/long: 51.4700223,-0.4542955) this should be displayed in both kilometers and miles.”
+In the project directory, you can run:
 
-> Ness - “Ok, I understand the request and I think I can provide some help. I’ve heard about https://postcodes.io/, and we can use it as web service where we can type the postcode and we get the address details back, alongside the latitude and longitude. As its straight line it should be very easy to calculate the distance between the airport and the customer address.
+### `yarn start`
 
-### A working example for the web service is: http://api.postcodes.io/postcodes/N76RS
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## A few examples of valid postcodes in the UK are:
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-| Index    | Postcode |          |
-|----------|----------|----------|
-| #1       | N76RS    |          |
-| #2       | SW46TA   |          |
-| #3       | SW1A     |          |
-| #4       | W1B3AG   |          |
-| #5       | PO63TD   |          |
+### `yarn test`
 
-     
-	     
-		 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-I think a node + reactJS (or angularJS or vueJS) application would be an excellent idea use the tool you are more confortable with. There are definitely benefits to it but feel free to use other technologies/frameworks. Obviously if you want to use other frontend tools/technologies to help you achieve the work, I’m happy with it, but remember the focus must be as much in having it working as it should to have a good user experience, bonus points if you are able to produce a mockup and explain the reason why you used certain components. It is important the user understands all the functionalities we have to offer and is able to understand them correctly
+### `yarn build`
 
-Once you are done please commit the code and create a Pull Request so we can code review it.”
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Now that the exercise has been explained, you can start working on it, we normally request for it to be uploaded into our git repository within 3 working days, but can be changed if you need more time to start. This task should take you no longer than 3 hours and needless to say should be totally completed by you, after all this is supposed to be a fun challenge! 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
----
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## We will provide you a git repository in bitbucket for the code to be uploaded. Please see the instructions below:
+### `yarn eject`
 
-Please sign up for an account on Bitbucket if you don't have one already. If you do, feel free to use your own login / profile.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you're not familiar with GIT, use the Sourcetree client to get started or visit http://git-scm.com for the official git client.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Once you're done with your work, COMMIT and then PUSH (ie. send to bitbucket). The PUSH with notify us and we will review your work. Only push when you're done, and push once. This is to avoid us reviewing an incomplete submission.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
----
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-### We're here to help...
-Should you run into problems or have any questions - please get in touch with either your recruitment agent or with Renato Oliveira - renato.oliveira@craftablesoftware.com
+## Learn More
 
-Good luck  
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
