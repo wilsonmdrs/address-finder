@@ -11,7 +11,7 @@ This project was developed whith React to provide a solution where a company nee
 * W1B3AG
 * PO63TD
 
-### Programing Features applyied:
+### Programing Features applied:
 * useState Hook
 * useEffect Hook
 * useContext Hook
