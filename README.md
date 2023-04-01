@@ -1,6 +1,6 @@
 # Address Finder Application
 
-This project was developed whith React to provide a solution where a company needed to allows the employee to find the addresses of customers based on their postcodes. Multiple addresses can be searched, so it would be nice if the application could add the history of the last 3 in the page. Finally, alongside the address, we need to display the distance in a straight line, from the customer location to London Heathrow airport (lat/long: 51.4700223,-0.4542955) this should be displayed in both kilometers and miles.
+This project was developed whith React to provide a solution where a company needed to allows the employee to find the addresses of customers based on their postcodes. Multiple addresses can be searched, so it was added the history of the last 3 in the page. Finally, alongside the address, was displayed the distance in a straight line, from the customer location to London Heathrow airport (lat/long: 51.4700223,-0.4542955) in both kilometers and miles.
 
 ### Programing Features applyied:
 * useState Hook
